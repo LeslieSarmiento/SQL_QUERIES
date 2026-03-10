@@ -1,5 +1,6 @@
 # Wikipedia "Google" Page View Analysis (BigQuery)
 
+## Project Overview
 This repository demonstrates a simple SQL query that analyzes Wikipedia page view data using Google BigQuery. The query searches for Wikipedia articles whose titles contain the word **"Google"**, calculates the total number of views for each article, and sorts them by popularity.
 
 The purpose of this example is to show how filtering, grouping, and aggregation work when analyzing large datasets with SQL.
