@@ -1,6 +1,13 @@
 # SQL Data Cleaning Project – Automobile Sales Dataset
 
-## Example Data Cleaning Query
+## Project Overview
+This project focuses on cleaning and validating automobile sales data using SQL in Google BigQuery. The dataset contains historical information about cars, including their specifications, fuel types, engine details, and prices.
+
+The goal of this project is to prepare the dataset for reliable analysis by identifying and correcting inconsistencies, missing values, and data entry errors. Clean data is essential before performing any analysis, especially when the results will guide business decisions.
+
+The main objective of this project is to demonstrate common SQL data cleaning techniques directly within a database environment. This includes validating column values, identifying inconsistencies, correcting errors, and ensuring the dataset is ready for analysis.
+
+## Data Cleaning Query
 
 The following SQL script demonstrates the queries used to inspect and clean the automobile dataset stored in Google BigQuery.
 
@@ -55,13 +62,6 @@ SET drive_wheels = TRIM(drive_wheels)
 WHERE TRUE;
 ```
 
-
-## Project Overview
-This project focuses on cleaning and validating automobile sales data using SQL in Google BigQuery. The dataset contains historical information about cars, including their specifications, fuel types, engine details, and prices.
-
-The goal of this project is to prepare the dataset for reliable analysis by identifying and correcting inconsistencies, missing values, and data entry errors. Clean data is essential before performing any analysis, especially when the results will guide business decisions.
-
-The main objective of this project is to demonstrate common SQL data cleaning techniques directly within a database environment. This includes validating column values, identifying inconsistencies, correcting errors, and ensuring the dataset is ready for analysis.
 
 ## Business Scenario
 In this scenario, a data analyst is working with a used car dealership startup. The company's investors want to understand which cars are most popular with customers so they can stock their inventory accordingly.
