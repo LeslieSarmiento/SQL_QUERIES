@@ -114,7 +114,7 @@ FROM messy_customers
 QUALIFY row_num = 1;
 ```
 
-## ✅ Final Output
+## Final Output
 
 - Original dataset: **1,000 messy records**  
 - Cleaned dataset: **11 unique, standardized records**  
@@ -122,13 +122,13 @@ QUALIFY row_num = 1;
 
 ---
 
-## 🚀 Key Takeaways
+## Key Takeaways
 
 - Clean data directly impacts the quality of insights and decisions  
  
 ---
 
-## 💡 Skills Demonstrated
+## Skills Demonstrated
 
 - Data cleaning and preprocessing  
 - SQL transformations  
