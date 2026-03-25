@@ -44,6 +44,7 @@ SELECT
   AVG(trip_distance) AS avg_distance,
   COUNT(DISTINCT pickup_location_id) AS unique_pickup_locations
 FROM `bigquery-public-data.new_york_taxi_trips.tlc_yellow_trips_2019`;
+```
 
 ### 2. Peak Demand by Hour & Day
 
