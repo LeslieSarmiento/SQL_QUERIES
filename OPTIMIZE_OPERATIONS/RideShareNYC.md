@@ -34,7 +34,7 @@ This analysis answers:
 
 ---
 
-## 1. Data Exploration
+### 1. Data Exploration
 
 ```sql
 SELECT 
